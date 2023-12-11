@@ -31,5 +31,5 @@ base_completa_filtrada |>
     names_from = avaliador,
     values_from = sentimento_geral
   ) |> 
-  filter(`evelynrosa@usp.br` != `luizh.batista@usp.br`)
+  filter(`evelynrosa@usp.br` != `luizh.batista@usp.br`) 
   
