@@ -1,6 +1,6 @@
 library(tidyverse)
 library(readxl)
-
+ 
 # Vetor de tt para revisao
 tt_revisao <- read_excel("dados/resultado_parcial_081223_tweets_p_revisar.xlsx", 
                                                         sheet = "tweets para revisar") |> 
